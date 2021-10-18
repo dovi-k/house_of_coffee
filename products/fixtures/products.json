@@ -37,7 +37,7 @@
       "group": "Whole Bean/Teas",
       "category": 1,
       "type": "Premium Beans",
-      "product": "Espresso Roast",
+      "name": "Espresso Roast",
       "description": "Our house blend for a good espresso shot.",
       "unit_of_measure": "1 lb",
       "price": "14.75 ",
@@ -50,7 +50,7 @@
       "fields": {
       "sku": "HC123459",
       "group": "Whole Bean/Teas",
-      "category": "Coffee beans",
+      "category": 1,
       "type": "Espresso Beans",
       "name": "Primo Espresso Roast",
       "description": "Our primium single source of hand roasted beans.",
@@ -126,7 +126,7 @@
       "fields": {
       "sku": "HC123464",
       "group": "Whole Bean/Teas",
-      "category": "Loose Tea",
+      "category": 5,
       "type": "Herbal tea",
       "name": "Peppermint",
       "description": "Cool and refreshing to help calm your nerves. ",
@@ -141,7 +141,7 @@
       "fields": {
       "sku": "HC123465",
       "group": "Whole Bean/Teas",
-      "category": "Loose Tea",
+      "category": 5,
       "type": "Herbal tea",
       "name": "English Breakfast",
       "description": "The traditional cup to start your day.",
@@ -156,7 +156,7 @@
       "fields": {
       "sku": "HC123466",
       "group": "Whole Bean/Teas",
-      "category": "Loose Tea",
+      "category": 5,
       "name": "Earl Grey",
       "type": "Herbal tea",
       "description": "A full leaf of Orange Pekoe blended with organic oil of bergamot.",
@@ -281,7 +281,7 @@
       "name": "Serenity Green Tea",
       "description": "Feel the stress leaving your body. ",
       "unit_of_measure": "16 oz", 
-      "current_retail_price": "$2.50 ",
+      "price": "2.50 ",
       "image": "heart-espresso.jpg"
       }
     },
@@ -323,7 +323,7 @@
       "model": "products.product",
       "fields": {
       "sku": "HC123477",
-      "product_group": "Beverages",
+      "group": "Beverages",
       "category": 5,
       "type": "Brewed Chai tea",
       "name": "Traditional Blend Chai Rg",
@@ -436,7 +436,7 @@
       "name": "Almond Croissant",
       "description": "Crunch!",
       "unit_of_measure": "single",
-      "price": "$3.75 ",
+      "price": "3.75 ",
       "image": "heart-espresso.jpg"
       }
     }
