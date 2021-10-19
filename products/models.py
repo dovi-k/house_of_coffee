@@ -23,6 +23,7 @@ class Product(models.Model):
     name = models.CharField(max_length=254)
     type = models.CharField(max_length=254, blank=True)
     description = models.TextField()
+    cup_size = models.BooleanField(default=False, null=True, blank=True)
     group = models.CharField(max_length=50, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     unit_of_measure = models.CharField(max_length=25, null=True, blank=True)
