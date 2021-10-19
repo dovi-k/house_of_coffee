@@ -284,7 +284,7 @@ Creating accounts with the following services:
 
 #### Directions
 1. You can clone this repository directly into the editor of your choice by pasting the following command into the terminal:   
-`git clone https://github.com/irinatu17/Art-of-Tea`    
+`https://github.com/dovi-k/house_of_coffee/`    
 Alternatively, you can save a copy of this repository by clicking the green button **Clone or download** , then **Download Zip** button, and after extract the Zip file to your folder.      
 In the terminal window of your local IDE change the directory (CD) to the correct file location (directory that you have just created).       
 
@@ -350,7 +350,7 @@ As well as that, other things that are required for the Heroku deployment and ha
 | STRIPE_WH_SECRET| `<your stripe wh key>`  |
 | USE_AWS | `True`  |
 
-Note: More about Google Map key settings can be found [here](#google-maps-api-key-set-up).
+
      
 8. Copy **DATABASE_URL's value**(Postrgres database URL) from the Convig Vars and temporary paste it into the default database in **settings.py**.     
 You can temporary comment out the current database settings code and just paste the following in the settings.py:   
