@@ -17,6 +17,7 @@
 
 {% block content %}
 <!-- Heading-->
+<div class="overlay"></div>   
 <div class="container">
   <div class="row">
     <div class="col text-center mt-3">
@@ -29,7 +30,7 @@
 <main class="container">
   <div class="row pt-3">
     <div class="col-12 col-md-6">
-      <img class="block-connect-img" src="{% media 'flat-white.jpg' %}" alt="flat white cup on the table">
+      <img class="block-connect-img" src="" alt="flat white cup on the table">
     </div>
     <div class="col-12 col-md-6">
       <form id="contact-form" method="POST">
@@ -40,7 +41,7 @@
           {{ form|crispy }}
         </fieldset>
         <div class="form-actions form-group mt-4 text-end">
-          <button class="btn action-btn btn-lg" type="submit">Send</button>
+          <button class="btn action-btn btn-black btn-lg" type="submit">Send</button>
         </div>
       </form>
     </div>

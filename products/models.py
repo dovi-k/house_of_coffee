@@ -27,7 +27,7 @@ class Product(models.Model):
     group = models.CharField(max_length=50, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     unit_of_measure = models.CharField(max_length=25, null=True, blank=True)
-    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    #image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
