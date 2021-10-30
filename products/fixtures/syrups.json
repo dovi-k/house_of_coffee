@@ -4,9 +4,7 @@
         "model": "product.syrup",
         "fields":{
         "name": "Hazelnut syrup",
-        "friendly_name": "hazelnut_syrup",
-        "unit_of_measure": "pump",
-        "price": "$0.80 "
+        "friendly_name": "hazelnut_syrup"
         }
       },
       {
@@ -14,19 +12,15 @@
         "model": "product.syrup",
         "fields":{
         "name": "Caramel syrup",
-        "friendly_name": "caramel_syrup",
-        "unit_of_measure": "pump",
-        "price": "$0.80 "
-        }
+        "friendly_name": "caramel_syrup"
+             }
       },
       {
         "pk": 3,
         "model": "product.syrup",
         "fields":{
         "name": "Vanilla syrup",
-        "friendly_name": "vanilla_syrup",
-        "unit_of_measure": "pump",
-        "price": "$0.80 "
+        "friendly_name": "vanilla_syrup"
         }
       },
       {
@@ -34,9 +28,7 @@
         "model": "product.syrup",
         "fields":{
         "name": "Gingerbread syrup",
-        "friendly_name": "gingerbread_syrup",
-        "unit_of_measure": "pump",
-        "price": "$0.80 "
+        "friendly_name": "gingerbread_syrup"
         }
       }
 ]

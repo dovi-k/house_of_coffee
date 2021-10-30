@@ -293,6 +293,7 @@
       "sku": "HC123475",
       "group": "Beverages",
       "category": 5,
+      "syrup": 1,
       "type": "Brewed Black tea",
       "name": "English Breakfast Rg",
       "description": "The Queen's favourite cuppa in the morning. ",

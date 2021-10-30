@@ -149,6 +149,68 @@
     {% block content %}
     {% endblock %}
 
+      <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- About section -->
+        <div class="col-sm-12 col-md-6">
+          <h3 class="footer-h">About</h3>
+          <p class="footer-p"> Any true coffee lover will know that it’s the tiny things that make all the difference. At the House of Coffee, 
+              you are served your daily cup of happiness not just by expert baristas, but by “true coffee artists”, from our house to your house. </p>
+        </div>
+        <!-- Categories section -->
+        <div class="col-xs-6 col-md-3">
+          <h3 class="footer-h">Categories</h3>
+          <ul class="footer-links">
+            <li><a href="{% url 'products' %}?category=beans">Coffee Beans</a></li>
+            <li><a href="{% url 'products' %}?category=loose_tea">Loose Teas</a></li>
+            <li><a href="{% url 'products' %}?category=packed_chocolate">Chocolate Powder</a></li>
+            <li><a href="{% url 'products' %}?category=coffee">Coffee</a></li>
+            <li><a href="{% url 'products' %}?category=tea">Tea</a></li>
+            <li><a href="{% url 'products' %}?category=drinking_chocolate">Drinking Chocolate</a></li>
+            <li><a href="{% url 'products' %}?category=bakery">Bakery goods</a></li>
+          </ul>
+        </div>
+        <!-- Quick Links section -->
+        <div class="col-xs-6 col-md-3">
+          <h3 class="footer-h">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="{% url 'about_us' %}">About Us</a></li>
+            <li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+            <li><a href="{% url 'products' %}">Shop</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- Copyright section -->
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2021 - This website is created by <a id="link-external"
+              href="https://github.com/dovi-k/" target="_blank" rel="noopener noreferrer"
+              aria-hidden="false">Dovile K </a> for educational purpose only
+          </p>
+        </div>
+        <!-- Social Links section -->
+        <div class="col-md-4 col-sm-6 col-xs-12 d-flex">
+          <ul class="social-icons">
+            <li><a class="github" target="_blank" href="https://github.com/dovi-k/t" rel="noopener noreferrer"
+                aria-hidden="false" aria-label="Github"><i class="fa fa-github"></i></a></li>
+            <li><a class="twitter" target="_blank" href="https://twitter.com/" rel="noopener noreferrer"
+                aria-hidden="false" aria-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="instagram" target="_blank" href="https://www.instagram.com/"
+                rel="noopener noreferrer" aria-hidden="false" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/dovile-krasnickaite-5a433376?originalSubdomain=ie"
+                rel="noopener noreferrer" aria-hidden="false" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--Toast JavaScript-->
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
