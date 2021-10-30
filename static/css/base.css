@@ -227,11 +227,11 @@ a.category-badge > span.badge:hover {
 
 
 footer {
-    background-color: var(--DarkAccent);
+    background-color: #222;
     padding: 45px 0 20px;
     font-size: 15px;
     line-height: 24px;
-    color: var(--LightAccent);
+    color: #f8f9fa;
 }
 
 .footer-h {
@@ -243,10 +243,11 @@ footer {
 }
 
 .footer-p {
-    color: var(--ExtraLight);
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
+    background-color: #222;
 }
 
 /* --- FOOTER LINKS --- */
