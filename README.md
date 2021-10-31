@@ -327,7 +327,7 @@ To deploy the project to [Heroku](https://heroku.com/) the following steps need 
 1. Create a **requirement.txt** file, which contains a list of the dependencies, using the following command in the terminal:    
 `pip3 freeze > requirements.txt`    
 2. Create a **Procfile**, in order to tell Heroku how to run the project, using the following command in the terminal:      
-`web: gunicorn art_of_tea.wsgi:application`    
+`web: gunicorn house-of-coffee.wsgi:application`    
 3. `git add`, `git commit` and `git push` these files to GitHub repository.     
 NOTE: these 1-3 steps already done in this project and included in the GitHub repository, but illistrated here as they are required for the successfull deployment to Heroku.        
 As well as that, other things that are required for the Heroku deployment and have to be installed: **gunicorn** (WSGI HTTP Server), **dj-database-url** for database connection and **Psycopg** (PostgreSQL driver for Python). All of the mentioned above are *already installed* in this project in the requirements.txt file.     
@@ -409,7 +409,9 @@ In order to send real emails from the application, you need to connect it to you
 ### Acknowledgements
 During development of this project, I received great support and would like to thank for :      
 - **My mentor** [Simen Daehlin](https://github.com/Eventyret) for his support, guidence and patience!
--  **Code Institute tutors** for their assistance and support!    
+- My boyfriend Zekvan Arslan who has supported me through this journey!
+- ***Code Institute Student Support*** huge thanks for Code Institute Student support, they have assisted me on many ocasions 
+-  **Code Institute tutors** for their assistance!    
 - Many thanks to my fellow students, **Slack community** and, of course, **my friends** for the patience and support.
 
 <div align="right">
