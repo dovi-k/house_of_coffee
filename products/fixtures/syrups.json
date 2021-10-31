@@ -1,7 +1,7 @@
 [
     {
         "pk": 1,
-        "model": "product.syrup",
+        "model": "products.syrup",
         "fields":{
         "name": "Hazelnut syrup",
         "friendly_name": "hazelnut_syrup"
@@ -9,7 +9,7 @@
       },
       {
         "pk": 2,
-        "model": "product.syrup",
+        "model": "products.syrup",
         "fields":{
         "name": "Caramel syrup",
         "friendly_name": "caramel_syrup"
@@ -17,7 +17,7 @@
       },
       {
         "pk": 3,
-        "model": "product.syrup",
+        "model": "products.syrup",
         "fields":{
         "name": "Vanilla syrup",
         "friendly_name": "vanilla_syrup"
@@ -25,10 +25,10 @@
       },
       {
         "pk": 4,
-        "model": "product.syrup",
+        "model": "products.syrup",
         "fields":{
-        "name": "Gingerbread syrup",
-        "friendly_name": "gingerbread_syrup"
+        "name": "Pumpkin syrup",
+        "friendly_name": "pumpkin_syrup"
         }
       }
 ]

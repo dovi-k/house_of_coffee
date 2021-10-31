@@ -83,6 +83,11 @@
                                     {% else %}
                                     <small class="text-muted"></small>
                                     {% endif %}
+                                    {% if product.syrup %}
+                                    <small class="text-muted"><i class="fas fa-plus-circle mr-1"></i>{{ product.syrup }}</small>
+                                    {% else %}
+                                    <small class="text-muted"></small>
+                                    {% endif %}
                                     {% if request.user.is_superuser %}
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a> | 

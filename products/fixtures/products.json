@@ -373,6 +373,7 @@
       "sku": "HC123480",
       "group": "Beverages",
       "category": 4,
+      "syrup": 4,
       "type": "Seasonal drink",
       "name": "Pumpkin Spice Latte",
       "description": "Boo, its that time of year again",
@@ -440,5 +441,51 @@
       "price": "3.75 ",
       "image": "heart-espresso.jpg"
       }
-    }
+    },
+    {
+      "pk": 30,
+      "model": "products.product",
+      "fields": {
+      "sku": "HC123485",
+      "group": "Drink",
+      "category": 4,
+      "syrup": 3,
+      "type": "Flavoured Drink",
+      "name": "Vanilla Latte",
+      "description": "Vanilla vanilla...",
+      "price": "4.75 ",
+      "image": "heart-espresso.jpg"
+      }
+    },
+      {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+        "sku": "HC123486",
+        "group": "Drink",
+        "category": 4,
+        "syrup": 2,
+        "type": "Flavoured drink",
+        "name": "Caramel Cappucino",
+        "description": "Sweet and Creamy drink for any day!",
+        "price": "4.75 ",
+        "image": "heart-espresso.jpg"
+        }
+      },
+      {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+        "sku": "HC123487",
+        "group": "Drink",
+        "category": 4,
+        "syrup": 1,
+        "type": "Flavoured drink",
+        "name": "Hazelnut Latte",
+        "description": "Sweet and Creamy drink for any day!",
+        "price": "4.75 ",
+        "image": "heart-espresso.jpg"
+        }
+      }
+
    ]

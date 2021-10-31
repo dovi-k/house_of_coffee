@@ -31,7 +31,8 @@ class Syrup(models.Model):
 class Product(models.Model):
     category = models.ForeignKey('Category', null=True, blank=True,
                                  on_delete=models.SET_NULL)
-    syrup = models.ForeignKey('Syrup', null=True, blank=True, on_delete=models.SET_NULL)
+    syrup = models.ForeignKey('Syrup', null=True, blank=True,
+                              on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     type = models.CharField(max_length=254, blank=True)

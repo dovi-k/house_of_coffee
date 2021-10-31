@@ -44,6 +44,7 @@
 </head>
 
 <body>
+    <!--Logo-->
     <header class="container-fluid fixed-top">
         <div class="row">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -66,6 +67,7 @@
                     </div>
                 </form>
             </div>
+            <!--Account Fuctionality-->
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
@@ -89,6 +91,7 @@
                             {% endif %}
                         </div>
                     </li>
+                    <!--Shopping Bag-->
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                             href="{% url 'view_bag' %}">
@@ -114,6 +117,7 @@
                     aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!--Nav Bar Includes-->
                 {% include 'includes/mobile-top-header.html' %}
                 {% include 'includes/main-nav.html' %}
             </nav>
