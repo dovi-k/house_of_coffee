@@ -1,0 +1,1 @@
+web: gunicorn house_of_coffee.wsgi:application
