@@ -52,7 +52,8 @@
                     <h2 class="logo-font text-black my-0">House of<strong>COFFEE</strong></h2>
                 </a>
             </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+    <!--Search Bar-->
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0" id="search-bar">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
                         <input class="form-control border border-black rounded-0" type="text" name="q"
@@ -78,11 +79,13 @@
                                 <p class="my-0">My Account</p>
                             </div>
                         </a>
+            <!--Super User Add Product Functionality-->
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
                             <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                             {% endif %}
+            <!-- User Prodile-->
                             <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}

@@ -412,3 +412,8 @@ footer {
      display: none
      }
     }
+    @media screen and (max-width: 976px) {
+        #search-bar {
+        display: none
+        }
+       }
