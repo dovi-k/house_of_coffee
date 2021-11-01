@@ -1,9 +1,7 @@
 # HOUSE OF COFFEE
+ 
 
-[![Build Status](https://travis-ci.org/irinatu17/Art-of-Tea.svg?branch=master)](https://travis-ci.org/irinatu17/Art-of-Tea)      
-
-The live website can be viewed [here]()      
-<img src="" alt="mockup" target="_blank" rel="noopener" width="850">
+The live website can be viewed [here](https://house-of-coffee.herokuapp.com/)      
 
 "Coffee – Because bad mornings deserve a second chance."
 
@@ -91,9 +89,8 @@ Full experience of the richness of the cup of coffee awaits you visit our little
 - As a user, I want to create my own account, so that I can save, view and edit my profile details and view my order history.
 #### Returning users
 - As a user, I want to easily login anytime, so that I can get access to my saved profile details and make next purchase quicker.
-- As a user, I want to reset my password if I forgot it, so that I can get access to my profile again. 
-- As a user, I want to  be able to change my password, so that I can create the stronger password (e.g.in case I published my old password somewhere) to protect my personal details.    
-- As a user, I want to  be able to change my email or add the second email, so that I can have an easier access to the website's functionality and to gain more flexibility.
+- As a user, I want to reset my password if I forgot it, so that I can get access to my profile again.     
+
 #### Website Owner(admin)
 - As a user, I want to have convenient and secure admin interface avalable only for website admin, so that I can add, edit and remove products/services.
 - As a user, I want to receive emails from the users when they fill out the contact form, so that I can reply on them satisfying users queries.
@@ -109,7 +106,7 @@ Full experience of the richness of the cup of coffee awaits you visit our little
 ![Color Palette]()
 #### Typography
 There are three fonts used across the project that I find a good combination: 
-- [Open Sans](https://fonts.google.com/specimen/Open+Sans) used as the main body font, popular modern sans-serif typeface providing good readability.
+- [Megrim](https://fonts.google.com/specimen/Megrim) used as the main body and LOGO font, popular modern cursive typeface providing lovely and modern visual feel. However, I Slightly overused it I believe in the project and I should have used more fonts and dofferent fonts for example important things like check out, user profile form to increase readability.
 
 #### Icons
 Icons are great way to make the website look more user friendly and grab the attention to the details. They allow users to find and scan content quickly and easily. It also helps people who are non-native English speaker to easier scan and gives visual clues about the content as well as creating more user friendly experience.  
@@ -118,7 +115,7 @@ Icons are great way to make the website look more user friendly and grab the att
 ### Wireframes
 [Balsamiq Wireframes](https://balsamiq.com/) tool was used to create all wireframes for this project.   
 
-Original wireframes for desktop, tablet and mobile can be found [here]().
+Original wireframes for desktop, tablet and mobile can be found [here](documentation/wireframes).
 
 
 
@@ -129,7 +126,7 @@ Original wireframes for desktop, tablet and mobile can be found [here]().
 ---
 
 ## Features
-Art of Tea website is composed of applications: `product`, `home`, `bag`. (MORE WILL BE ADDED AS THE PROJECT EVOLVES)
+Art of Tea website is composed of applications: `product`, `home`, `bag`, `checkout`, `profiles`, `about`
 ### Existing Features     
 #### Navbar
 I have selected to keep the Navbar Fixed for users to be able to navigate the site easier reaching their Account, Products, Shopping Bag in one or two clicks.
@@ -392,6 +389,11 @@ In order to send real emails from the application, you need to connect it to you
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
+
+Code Credits:
+
+- I have to mention that a lot of the code was taken from Code Institute Boutique Ado project, main functions like checkout, products display, using stripe also the site design was inspired by Boutiwue Ado project
+- Another project for Inspiration Irisnas's Tushinas Art of Tea, Anouk Smet Casa and Franciska TheHappy Bean
 
 ---
 
