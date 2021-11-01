@@ -76,11 +76,10 @@ Full experience of the richness of the cup of coffee awaits you visit our little
 - Make the coffee shop more recognisable, build on brand
 ### User Stories    
 #### Common user stories (guests, new users and authenticated users)
-- As a user, I want to be able to access the website from any device, sude website anytime and anywhere.
+- As a user, I want to be able to access the website from any device, website anytime and anywhere.
 - As a user, I want user intuitive website that is easy to navigate, so that I can quickly find what I'm looking for.
 - As a user, I want to easily access social media links of the company, so that I can lran more about the brand.
 - As a user, I want to be able to read infomration about the business and what their ideas are, how they are different from other businesses so I could decide if I want to choose this brand. 
-- As a user, I want to see the location of the HOUSE OF COFFEE shop on a map, so that I could find the site shop too.
 - As a user, I want to be able to easily contact the owner/manager of the company, so I could direct my questions and queries.
 - As a user, I want to view  product details in clear lay-out(e.g. image, price, description), so that I can make purchases.
 - As a user, I want to search and filter the products easily, so that I can easily find what I am looking for.
