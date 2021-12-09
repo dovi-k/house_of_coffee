@@ -29,6 +29,12 @@ body {
     padding-bottom: 30px;
 }
 
+.card-title {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -267,7 +273,6 @@ footer {
     width: 100%;
     height:60px;
     background-color: #222;
-    padding: 45px 0 20px;
     font-size: 15px;
     line-height: 24px;
     color: #f8f9fa;
@@ -440,4 +445,4 @@ footer {
         #search-bar {
         display: none
         }
-       }
+       }}
