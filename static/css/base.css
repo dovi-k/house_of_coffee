@@ -9,6 +9,10 @@ body {
     color: #555;
     font-family: 'Arial', cursive;
 }
+ 
+#logo-row {
+    background-color: #fff;
+}
 
 /* from Bulma */
 .icon {
