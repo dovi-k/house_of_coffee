@@ -202,6 +202,18 @@ For deployment(production), a **PostgreSQL** database is provided by Heroku as a
 Programmatic Name | name | CharField | max_length=254
 Friendly Name | friendly_name | CharField | max_length=254, null=True, blank=True
 
+##### Syrup
+| **Name** | **Database Key** | **Field Type** | **Validation** |
+--- | --- | --- | --- 
+Programmatic Name | name | CharField | max_length=254
+Friendly Name | friendly_name | CharField | max_length=254, null=True, blank=True
+
+##### Origin
+| **Name** | **Database Key** | **Field Type** | **Validation** |
+--- | --- | --- | --- 
+Programmatic Name | name | CharField | max_length=254
+Friendly Name | friendly_name | CharField | max_length=254, null=True, blank=True
+
 
 
 
