@@ -84,12 +84,12 @@
                                     <small class="text-muted"></small>
                                     {% endif %}
                                     {% if product.syrup %}
-                                    <small class="text-muted"><i class="fas fa-plus-circle mr-1"></i>{{ product.syrup }}</small>
+                                    <small class="text-muted"><i class="fas fa-plus-circle mr-1"></i>{{ product.syrup.friendly_name }}</small>
                                     {% else %}
                                     <small class="text-muted"></small>
                                     {% endif %}
                                     {% if product.origin %}
-                                    <small class="text-muted"><i class="fas fa-globe mr-1"></i>{{ product.origin }}</small>
+                                    <small class="text-muted"><i class="fas fa-globe mr-1"></i>{{ product.origin.friendly_name }}</small>
                                     {% else %}
                                     <small class="text-muted"></small>
                                     {% endif %}

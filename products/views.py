@@ -4,14 +4,14 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category
+from .models import Product, Category, Origin
 from .forms import ProductForm
 
 # Create your views here.
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
-    
+    origin = Origin.objects.all()
     products = Product.objects.all()
     query = None
     categories = None
@@ -53,6 +53,7 @@ def all_products(request):
     current_sorting = f'{sort}_{direction}'
 
     context = {
+        'origin' : origin,
         'products': products,
         'search_term': query,
         'current_categories': categories,
