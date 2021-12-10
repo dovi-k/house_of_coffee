@@ -19,6 +19,17 @@ body {
     padding-bottom: 50px;
 }
 
+/* Product Template */
+
+.header2-container {
+    padding-top: 35px;
+}
+
+.product-container{
+    margin-top: 20px;
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+}
 /* Pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 370px) {
 .header-error {
@@ -280,6 +291,7 @@ a.category-badge > span.badge:hover {
 
 
 footer {
+    width: 100%;
     background-color: #222;
     font-size: 15px;
     line-height: 24px;
